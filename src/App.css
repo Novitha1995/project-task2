@@ -6,8 +6,8 @@
 
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background: #0c0700;
-  color: #060110;
+  background: #c5b6a0;
+  color: #4f10e0;
 }
 
 button,
@@ -38,7 +38,7 @@ button {
 
   z-index: 1000;
 
-  background: #d85f19;
+  background: #0e0703;
   color: #fffaf5;
 
   display: flex;

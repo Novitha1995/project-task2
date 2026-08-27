@@ -6,8 +6,8 @@
 
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background: #fff7ed;
-  color: #3b2416;
+  background: #0c0700;
+  color: #4f10e0;
 }
 
 button,
@@ -21,18 +21,12 @@ button {
   border: none;
 }
 
-/* =========================
-   APP
-========================= */
 
 .app {
   min-height: 100vh;
   display: flex;
 }
 
-/* =========================
-   SIDEBAR
-========================= */
 
 .sidebar {
   width: 245px;
@@ -44,7 +38,7 @@ button {
 
   z-index: 1000;
 
-  background: #3b2416;
+  background: #0e0703;
   color: #fffaf5;
 
   display: flex;
@@ -59,9 +53,6 @@ button {
   width: 78px;
 }
 
-/* =========================
-   LOGO
-========================= */
 
 .logo-section {
   height: 80px;
@@ -109,9 +100,6 @@ button {
   display: none;
 }
 
-/* =========================
-   NAVIGATION
-========================= */
 
 .navigation {
   padding: 24px 13px;
@@ -179,9 +167,6 @@ button {
   font-weight: 500;
 }
 
-/* =========================
-   SIDEBAR BOTTOM
-========================= */
 
 .sidebar-bottom {
   padding: 14px;
@@ -279,9 +264,6 @@ button {
   color: #cdb3a1;
 }
 
-/* =========================
-   MAIN AREA
-========================= */
 
 .main-area {
   margin-left: 245px;
@@ -297,9 +279,6 @@ button {
   width: calc(100% - 78px);
 }
 
-/* =========================
-   TOPBAR
-========================= */
 
 .topbar {
   height: 80px;
@@ -367,9 +346,6 @@ button {
   gap: 15px;
 }
 
-/* =========================
-   SEARCH
-========================= */
 
 .search-box {
   width: 235px;
@@ -410,9 +386,6 @@ button {
   color: #b89b86;
 }
 
-/* =========================
-   NOTIFICATION
-========================= */
 
 .notification {
   position: relative;
@@ -447,9 +420,6 @@ button {
   border-radius: 50%;
 }
 
-/* =========================
-   TOP PROFILE
-========================= */
 
 .top-profile {
   display: flex;
@@ -473,9 +443,6 @@ button {
   color: #9a765d;
 }
 
-/* =========================
-   CONTENT
-========================= */
 
 .content {
   padding: 30px;
@@ -527,9 +494,6 @@ button {
   background: #9a3412;
 }
 
-/* =========================
-   CARDS
-========================= */
 
 .cards-grid {
   display: grid;
@@ -651,9 +615,6 @@ button {
   color: #dc2626;
 }
 
-/* =========================
-   DASHBOARD GRID
-========================= */
 
 .dashboard-grid {
   display: grid;
@@ -679,9 +640,6 @@ button {
   box-shadow: 0 5px 18px rgba(90, 50, 25, 0.04);
 }
 
-/* =========================
-   HEADERS
-========================= */
 
 .chart-header,
 .section-header,
@@ -725,9 +683,6 @@ button {
   outline: none;
 }
 
-/* =========================
-   CHART
-========================= */
 
 .chart {
   height: 250px;
@@ -785,9 +740,6 @@ button {
   margin-top: 12px;
 }
 
-/* =========================
-   PROFILE
-========================= */
 
 .profile-card {
   text-align: center;
@@ -899,9 +851,6 @@ button {
   background: #9a3412;
 }
 
-/* =========================
-   TABLE
-========================= */
 
 .recent-orders {
   overflow: hidden;
@@ -987,17 +936,11 @@ td {
   color: #b91c1c;
 }
 
-/* =========================
-   OVERLAY
-========================= */
 
 .sidebar-overlay {
   display: none;
 }
 
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 1100px) {
 
@@ -1014,9 +957,6 @@ td {
   }
 }
 
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 768px) {
 
@@ -1129,9 +1069,6 @@ td {
   }
 }
 
-/* =========================
-   SMALL MOBILE
-========================= */
 
 @media (max-width: 480px) {
 
